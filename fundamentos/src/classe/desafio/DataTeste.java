@@ -3,12 +3,12 @@ package classe.desafio;
 public class DataTeste {
 
 	public static void main(String[] args) {
-		Data dt = new Data();
-		dt.dia = 11;
-		dt.mes = 9;
-		dt.ano = 2020;
+	
+		Data dt_1 = new Data();		
+		Data dt_2 = new Data(14, 9, 2021);
 		
-		System.out.println(dt.obterDataFormatada());
+		System.out.println(dt_1.obterDataFormatada());
+		System.out.println(dt_2.obterDataFormatada());
 	}
 
 }
