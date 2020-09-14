@@ -1,4 +1,4 @@
-package classe;
+package classe.desafio;
 
 public class DataTeste {
 
@@ -8,7 +8,7 @@ public class DataTeste {
 		dt.mes = 9;
 		dt.ano = 2020;
 		
-		System.out.printf("Dia %d/%d/%d", dt.dia, dt.mes, dt.ano);
+		System.out.println(dt.obterDataFormatada());
 	}
 
 }
