@@ -6,10 +6,10 @@ public class Data {
 	int ano;
 	
 	Data(){
-		this(01, 01, 1970);
+		//this(01, 01, 1970);
 	}
 	
-	Data( int dia, int mes, int ano){
+	Data(int dia, int mes, int ano){
 		this.dia = dia;
 		this.mes = mes;
 		this.ano = ano;
