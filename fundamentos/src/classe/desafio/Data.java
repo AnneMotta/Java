@@ -6,15 +6,13 @@ public class Data {
 	int ano;
 	
 	Data(){
-		dia = 01;
-		mes = 01;
-		ano = 1970;
+		this(01, 01, 1970);
 	}
 	
-	Data( int diaIncial, int mesIncial, int anoIncial){
-		dia = diaIncial;
-		mes = mesIncial;
-		ano = anoIncial;
+	Data( int dia, int mes, int ano){
+		this.dia = dia;
+		this.mes = mes;
+		this.ano = ano;
 	}
 	
 	String obterDataFormatada() {
