@@ -1,4 +1,4 @@
-package arrays.desafio;
+package arrays_collections.desafio;
 
 import java.util.Arrays;
 

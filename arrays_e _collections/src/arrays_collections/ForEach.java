@@ -1,4 +1,4 @@
-package arrays;
+package arrays_collections;
 
 public class ForEach {
 	public static void main(String[] args) {

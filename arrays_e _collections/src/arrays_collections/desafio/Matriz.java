@@ -1,4 +1,4 @@
-package arrays;
+package arrays_collections.desafio;
 
 import java.util.Scanner;
 
