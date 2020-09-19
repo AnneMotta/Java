@@ -1,4 +1,4 @@
-package arrays_collections.equals_hashcode;
+package arrays.equals_hashcode;
 
 public class Teste {
 	
