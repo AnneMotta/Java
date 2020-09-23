@@ -3,8 +3,8 @@ package collections;
 import java.util.HashSet;
 import java.util.Set;
 
-public class ConjuntoBagunçado {
-	
+public class SetHeterogenio {
+	//SET HETEROGÊNEO 
 	@SuppressWarnings({ "rawtypes", "unchecked" })
 	public static void main(String[] args) {
 		
