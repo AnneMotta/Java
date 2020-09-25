@@ -1,4 +1,4 @@
-package composicao;
+package composicao.carro;
 
 public class CarroTeste {
 		
