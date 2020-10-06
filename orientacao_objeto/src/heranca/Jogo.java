@@ -2,19 +2,29 @@ package heranca;
 
 public class Jogo {
 	public static void main(String[] args) {
-		Jogador jg = new Jogador();
-//		jg.x = 1;
-//		jg.y = 1;
+		Visitantes jogador = new Visitantes();
+		jogador.x = 10;
+		jogador.y = 11;
 		
-		jg.andar(Direcao.NORTE);
-		jg.andar(Direcao.LESTE);
-		jg.andar(Direcao.LESTE);
-		jg.andar(Direcao.LESTE);
-		jg.andar(Direcao.OESTE);
-		jg.andar(Direcao.SUL);
-		jg.andar(Direcao.SUL);
+		TimeCasa oponente = new TimeCasa();
+		oponente.x = 10;
+		oponente.y = 10;
 		
-		System.out.println(jg.x);
-		System.out.println(jg.y);
+//		jg.andar(Direcao.NORTE);
+//		jg.andar(Direcao.LESTE);
+//		jg.andar(Direcao.LESTE);
+//		jg.andar(Direcao.LESTE);
+//		jg.andar(Direcao.OESTE);
+//		jg.andar(Direcao.SUL);
+//		jg.andar(Direcao.SUL);
+		
+		System.out.println(oponente.vida);
+		System.out.println(jogador.vida);
+		
+		jogador.atacar(oponente);
+		
+		System.out.println(oponente.vida);
+		System.out.println(jogador.vida);
+		
 	}
 }
