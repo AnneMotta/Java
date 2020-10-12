@@ -6,8 +6,8 @@ public class Jogador {
 	int vida = 100;
 	
 	public Jogador(int x, int y) {
-		x = this.x;
-		y = this.y;
+		this.x = x;
+		this.y = y;
 	}
 	
 	boolean atacar(Jogador oponente) {
