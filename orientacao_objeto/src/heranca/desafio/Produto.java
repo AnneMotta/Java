@@ -1,4 +1,4 @@
-package composicao.desafio;
+package heranca.desafio;
 
 public class Produto {
 	String nome;

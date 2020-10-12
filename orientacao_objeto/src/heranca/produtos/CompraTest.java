@@ -1,4 +1,4 @@
-package composicao.produtos.bidirecional;
+package heranca.produtos;
 
 public class CompraTest {
 		
@@ -6,9 +6,9 @@ public class CompraTest {
 	
 		Compra compra_um = new Compra();
 		compra_um.cliente = "Anne Motta";
-		compra_um.adicionarItem("Livro", 2, 89.50);
-		compra_um.adicionarItem("Caderno", 3, 50.98);
-		compra_um.adicionarItem(new Item ("Caneta", 5, 23.74));
+		compra_um.itens.add(new Item ("Livro", 2, 89.50));
+		compra_um.itens.add(new Item ("Caderno", 3, 50.98));
+		compra_um.itens.add(new Item ("Caneta", 5, 23.74));
 		
 		System.out.println(compra_um.getValorTotal());
 	}

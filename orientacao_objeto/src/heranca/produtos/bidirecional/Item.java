@@ -1,10 +1,11 @@
-package composicao.produtos;
+package heranca.produtos.bidirecional;
 
 public class Item {
 	
 	String nome;
 	int quantidade;
 	double preco;
+	Compra compra;
 	
 	public Item(String nome, int quantidade, double preco) {
 		this.nome = nome;

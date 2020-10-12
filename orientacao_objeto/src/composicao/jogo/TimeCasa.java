@@ -1,4 +1,4 @@
-package heranca;
+package composicao.jogo;
 
 public class TimeCasa extends Jogador{
 	boolean atacar(Jogador oponente) {

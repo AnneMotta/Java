@@ -1,4 +1,4 @@
-package composicao.desafio;
+package heranca.desafio;
 
 public class TesteCompra {
 	public static void main(String[] args) {

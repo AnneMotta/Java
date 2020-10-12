@@ -1,4 +1,4 @@
-package composicao.curso;
+package heranca.curso;
 
 import java.util.ArrayList;
 import java.util.List;

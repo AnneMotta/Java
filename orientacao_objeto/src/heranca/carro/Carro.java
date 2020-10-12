@@ -1,4 +1,4 @@
-package composicao.carro;
+package heranca.carro;
 
 public class Carro {
 	
