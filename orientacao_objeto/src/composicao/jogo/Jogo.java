@@ -6,9 +6,7 @@ public class Jogo {
 		oponente.x = 10;
 		oponente.y = 10;
 		
-		TimeCasa  jogador= new TimeCasa();
-		jogador.x = 10;
-		jogador.y = 11;
+		TimeCasa  jogador= new TimeCasa(10, 11);
 		
 //		jg.andar(Direcao.NORTE);
 //		jg.andar(Direcao.LESTE);
