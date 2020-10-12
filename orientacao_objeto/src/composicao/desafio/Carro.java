@@ -1,11 +1,17 @@
 package composicao.desafio;
 
 public class Carro {
+	final int VELOCIDADE_MAXIMA;
 	int velocidadeAtual;
+	int delta;
+	
+	public Carro(int velocidadeMaxima) {
+		VELOCIDADE_MAXIMA = velocidadeMaxima;
+	}
 	
 	void acelerar(){
-		if (velocidadeAtual < 200 ) {
-			velocidadeAtual += 5;			
+		if (velocidadeAtual + 5 > VELOCIDADE_MAXIMA ) {
+			velocidadeAtual += delta;			
 		}
 	}
 	

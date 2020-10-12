@@ -2,7 +2,7 @@ package composicao.desafio;
 
 public class Teste {
 	public static void main(String[] args) {
-		Ferrari ferrari = new Ferrari();
+		Ferrari ferrari = new Ferrari(150);
 		Civic civic = new Civic();
 		
 		System.out.println(ferrari);

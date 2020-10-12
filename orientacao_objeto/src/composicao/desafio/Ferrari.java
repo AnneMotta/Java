@@ -1,16 +1,13 @@
 package composicao.desafio;
 
 public class Ferrari extends Carro{
-
-	@Override
-	void acelerar() {
-		velocidadeAtual += 15;
-		
+	
+	public Ferrari() {
+		this(320);
 	}
 	
-	@Override
-	void frear() {
-		velocidadeAtual -= 15;
-;
+	public Ferrari(int velocidadeMaxima) {
+		super(velocidadeMaxima);
+		delta = 15;
 	}
 }
