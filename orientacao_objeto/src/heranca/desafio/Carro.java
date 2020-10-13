@@ -1,21 +1,21 @@
 package heranca.desafio;
 
 public class Carro {
-	final int VELOCIDADE_MAXIMA;
-	int velocidadeAtual;
-	int delta;
+	public final int VELOCIDADE_MAXIMA;
+	protected int velocidadeAtual;
+	protected int delta;
 	
-	public Carro(int velocidadeMaxima) {
+	protected Carro(int velocidadeMaxima) {
 		VELOCIDADE_MAXIMA = velocidadeMaxima;
 	}
 	
-	void acelerar(){
+	public void acelerar(){
 		if (velocidadeAtual + 5 > VELOCIDADE_MAXIMA ) {
 			velocidadeAtual += delta;			
 		}
 	}
 	
-	void frear() {
+	public void frear() {
 		if (velocidadeAtual >= 5) {
 			velocidadeAtual -= 5;
 		}else {

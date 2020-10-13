@@ -1,4 +1,7 @@
-package heranca.jogo;
+package heranca.teste;
+
+import heranca.jogo.TimeCasa;
+import heranca.jogo.Visitantes;
 
 public class Jogo {
 	public static void main(String[] args) {
