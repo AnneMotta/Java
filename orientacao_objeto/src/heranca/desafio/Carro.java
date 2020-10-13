@@ -1,4 +1,4 @@
-package composicao.desafio;
+package heranca.desafio;
 
 public class Carro {
 	final int VELOCIDADE_MAXIMA;

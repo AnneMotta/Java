@@ -1,4 +1,4 @@
-package heranca.carro;
+package composicao.carro;
 
 public class Motor {
 

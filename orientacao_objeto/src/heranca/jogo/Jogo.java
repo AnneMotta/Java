@@ -1,4 +1,4 @@
-package composicao.jogo;
+package heranca.jogo;
 
 public class Jogo {
 	public static void main(String[] args) {

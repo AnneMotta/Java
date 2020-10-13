@@ -1,4 +1,4 @@
-package heranca.curso;
+package composicao.curso;
 
 public class CursoTeste {
 	

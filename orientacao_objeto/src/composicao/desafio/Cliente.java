@@ -1,4 +1,4 @@
-package heranca.desafio;
+package composicao.desafio;
 
 import java.util.ArrayList;
 import java.util.List;

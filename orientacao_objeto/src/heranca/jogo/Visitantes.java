@@ -1,4 +1,4 @@
-package composicao.jogo;
+package heranca.jogo;
 
 public class Visitantes extends Jogador{
 	public Visitantes() {

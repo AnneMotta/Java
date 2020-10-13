@@ -1,4 +1,4 @@
-package heranca.desafio;
+package composicao.desafio;
 
 public class Item {
 	final Produto produto;
