@@ -3,15 +3,17 @@ package heranca.desafio;
 public class Carro {
 	public final int VELOCIDADE_MAXIMA;
 	protected int velocidadeAtual;
-	protected int delta;
+	private int delta;
 	
 	protected Carro(int velocidadeMaxima) {
 		VELOCIDADE_MAXIMA = velocidadeMaxima;
 	}
 	
 	public void acelerar(){
-		if (velocidadeAtual + 5 > VELOCIDADE_MAXIMA ) {
-			velocidadeAtual += delta;			
+		if (velocidadeAtual + getDelta() > VELOCIDADE_MAXIMA ) {
+			velocidadeAtual += VELOCIDADE_MAXIMA;			
+		}else {
+			velocidadeAtual += getDelta();	
 		}
 	}
 	
@@ -27,4 +29,14 @@ public class Carro {
 	public String toString() {
 		return "Velocidade Ferrari: " + velocidadeAtual + " km/h";
 	}
+
+	public int getDelta() {
+		return delta;
+	}
+
+	public void setDelta(int delta) {
+		this.delta = delta;
+	}
+	
+	
 }
