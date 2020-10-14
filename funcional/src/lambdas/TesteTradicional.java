@@ -10,6 +10,8 @@ public class TesteTradicional {
 		calc = new Multiplicacao();
 		System.out.println(calc.executar(5, 6));
 		
+		System.out.println(calc.padrao());
+		System.out.println(Calculo.statico());
 		
 	}
 }
